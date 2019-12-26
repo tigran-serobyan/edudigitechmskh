@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="logo">EduDigitech</div>
+    <div class="form-block">
+      <em id='error'></em>
+      <input type="text" id="name" placeholder="Մասնակից">
+      <input type="text" id="team" placeholder="Խմբակային աշխատանքի դեպքում մյուս հեղինակների անուններ">
+      <input type="text" id="teacher" placeholder="Խորհրդատու ուսուցիչ">
+      <input type="mail" id="email" placeholder="Էլեկտրոնային հասցե">
+      <input type="text" id="city" placeholder="Երկիր, մարզ, քաղաք, գյուղ">
+      <input type="text" id="school" placeholder="Հաստատություն">
+      <input type="text" id="class" placeholder="Դպրոց, Դասարան">
+      <textarea type="text" id="descp" placeholder="Նկարագրություն"></textarea>
+      <textarea type="text" id="urls" placeholder="Հոդվածների կամ նյութերի հղումները (, ստորակետներով առանձնացված)"></textarea>
+      <input type="submit" value="Ուղարկել" class="submit" onclick="send()">
+    </div>
+</div>
+
+</body>
+</html>

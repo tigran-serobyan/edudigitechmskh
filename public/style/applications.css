@@ -1,0 +1,75 @@
+body {
+    background-color: #ffeb3b;
+}
+
+.inform-block {
+    display: inline-block;
+    width: 47%;
+    min-width: 500px;
+    padding: 55px;
+    margin: 1% 1.5%;
+    background-color: white;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.value {
+    color: #66bb6a;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.title {
+    color: #66bb6a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo {
+    font-family: 'Luckiest Guy', cursive;
+    color: #66bb6a;
+    font-size: 48px;
+    padding: 10px;
+}
+
+#new_posts{
+  position: fixed;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  background: #000c;
+  color: white;
+  padding: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+i{
+  color: #777
+}
+
+.liked i{
+  color: #a33;
+}
+
+a{
+  display: inline-block;
+  background: #66bb6a;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+  margin: 5px 7px;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+a:hover{
+  background: #333;
+}
