@@ -14,7 +14,7 @@ if (postsJson ? postsJson.data : false) {
 
 
 let url = ip.address();
-console.log(url + ':3001');
+console.log(url + ':5000');
 let date = new Date();
 app.use(express.static("./public"));
 let last_post = 0;
@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
 app.get('/applications', function (req, res) {
     res.redirect('./applications.html');
 });
-server.listen(3001);
+server.listen(5000);
 io.on('connection', function (socket) {
 
   socket.on("posts", function (data) {
